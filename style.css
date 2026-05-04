@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 防止出現捲軸 */
+  background-color: #e7c6ff; /* 讓網頁背景與畫布顏色一致 */
+}
+
+canvas {
+  display: block; /* 移除畫布下方的微小空隙 */
+  vertical-align: middle;
+}
